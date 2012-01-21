@@ -1,0 +1,10 @@
+Infoextractor parses through the archive of files containing the text of the email messages and extracts the IP and domain information found in each file. The archive is fount under the name 'hardham.tgz'. Sample output can be found in 'sample_output.txt'
+
+A typical email message contains message headers followed by a blank line followed by the message body. Received headers begin with "Received:" and detail the mail systems that the email was routed through.
+
+The body of the message is separated from the headers by a blank line.
+
+Domains appear as part of URLs. For instance, a url looks like:
+http://www.domain.com/xyz.html
+The domain would be domain.com. 
+ 

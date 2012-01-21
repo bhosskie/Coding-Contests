@@ -1,0 +1,10 @@
+processLog.php processes the transaction log from a log file.
+All transactions are in the following format
+
+customer_name|product_category|item_description|cost 
+
+The script generates the following output
+
+1.A report of the total revenue resulting from each customer2.A report for each customer showing how much of their spending went to each category. 3.The sales tax component for each of the reports assuming a sales tax of 9.25% for each item.
+
+A sample transaction log can be found in "tanslog.txt"
